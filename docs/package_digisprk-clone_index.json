@@ -1,7 +1,7 @@
 {
    "packages":[
       {
-         "name":"digispark-clone",
+         "name":"digispark",
          "maintainer":"Kimio Kosaka",
          "websiteURL":"",
          "email":"kimio.kosaka@gmail.com",
@@ -13,7 +13,7 @@
           "name": "Disispark AVR Boards",
           "architecture": "avr",
           "version": "1.0.0",
-          "category": "Digispark",
+          "category": "digispark",
           "url": "https://github.com/kimio-kosaka/digispark-clone/archive/1.0.0.zip",
           "archiveFileName": "digispark-clone-1.0.0.zip",
           "checksum": "SHA-256:871f93279fb1dcad698aaf4c2db7d33aecc33cdda261358e4e9851886482e915",
@@ -28,7 +28,7 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "digistump",
+              "packager": "digispark",
               "name": "micronucleus",
               "version": "2.0a4"
             }
