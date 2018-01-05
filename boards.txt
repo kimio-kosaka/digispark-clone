@@ -1,0 +1,29 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+##############################################################
+
+digispark-clone.name=Digispark (Default - 16.5mhz)
+digispark-clone.build.core=tiny
+digispark-clone.build.variant=digispark
+digispark-clone.build.mcu=attiny85
+digispark-clone.build.f_cpu=16500000L
+digispark-clone.build.board=AVR_DIGISPARK
+#
+digispark-clone.upload.using=micronucleusprog
+digispark-clone.upload.protocol=usb
+digispark-clone.upload.tool=micronucleus
+digispark-clone.upload.maximum_size=6012
+digispark-clone.upload.wait_for_upload_port = false
+digispark-clone.upload.use_1200bps_touch = false
+digispark-clone.upload.disable_flushing = false
+#
+digispark-clone.bootloader.tool=arduino:avrdude
+digispark-clone.bootloader.unlock_bits=0xff
+digispark-clone.bootloader.lock_bits=0xff
+digispark-clone.bootloader.low_fuses=0xf1
+digispark-clone.bootloader.high_fuses=0xdf
+digispark-clone.bootloader.extended_fuses=0xfe
+digispark-clone.bootloader.file=t85_default.hex
+
+

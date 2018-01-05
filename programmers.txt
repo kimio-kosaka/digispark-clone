@@ -1,0 +1,10 @@
+micronucleusprog.name=Micronucleus 
+micronucleusprog.communication=usb
+micronucleusprog.protocol=micronucleus
+micronucleusprog.program.tool={runtime.tools.micronucleus.path}/micronucleus
+micronucleusprog.program.extra_params=-Pusb
+raspi.name=Raspberry Pi GPIO
+raspi.protocol=linuxgpio
+raspi.program.protocol=linuxgpio
+raspi.program.tool=avrdude
+
