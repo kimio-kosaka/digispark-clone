@@ -15,7 +15,11 @@ https://kimio-kosaka.github.io/digispark-clone/package_digispark-clone_index.jso
 <br />
 <h4>On Raspbian</h4>
 Set the USB device access rule by your hand<br />
-/etc/udev/rules.d/49-micronucleus.rules<br />
+<br />
+touch /etc/udev/rules.d/49-micronucleus.rules<br />
+<br />
+add rule-codes to 49-micronucleus.rules file.<br />
+<br />rule-codes<br /><br />
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="0753", MODE:="0666"<br />
 KERNEL=="ttyACM*", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="0753", MODE:="0666", ENV{ID_MM_DEVICE_IGNORE}="1"<br />
 
