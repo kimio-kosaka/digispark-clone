@@ -24,7 +24,7 @@
           "boards": [
             {
               "name": "Digispark (Default - 16.5mhz)"
-            },
+            }
           ],
           "toolsDependencies": [
             {
