@@ -2,7 +2,7 @@
    "packages":[
       {
          "name":"digispark",
-         "maintainer":"modified by Kosaka-Lab",
+         "maintainer":"Kosaka.Lab",
          "websiteURL":"",
          "email":"kimio.kosaka@gmail.com",
          "help":{
@@ -10,7 +10,7 @@
          },
          "platforms":[
          {
-          "name": "Disispark AVR Boards",
+          "name": "Disispark AVR Boards (clone)",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "digispark",
